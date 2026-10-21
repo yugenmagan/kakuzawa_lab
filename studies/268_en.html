@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html lang="en"><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Elfen Lied Mean Time</title><style>body{margin:auto;max-width:850px;padding:20px;font:18px/1.65 system-ui,sans-serif;background:#f7f8f8;color:#20272c}nav a{margin-right:1em}article{background:white;border:1px solid #ddd;border-radius:12px;padding:24px;white-space:pre-line}a{color:#176a75} .note{background:#fff3dc;padding:12px;border-radius:8px} img{max-width:100%;height:auto;display:block;margin:15px auto}.bando-placeholder{padding:0!important;overflow:hidden;border:1px solid #8eaaa9!important;border-radius:12px;background:#112f33!important;color:white!important}.bando-placeholder img{display:block;width:100%;height:180px;object-fit:cover;object-position:center 40%;filter:brightness(.8)}.bando-placeholder figcaption{padding:12px 16px;font-weight:650;background:#112f33;color:#fff}.bando-placeholder img{max-width:100%}figure{max-width:100%;margin:20px 0}nav{overflow-wrap:anywhere}</style><nav><a href="index.html">Contents</a><a href="633_en.html">1</a><a href="572_en.html">2</a><a href="267_en.html">3</a><a href="634_en.html">4</a><a href="268_en.html">5</a><a href="624_en.html">6</a><a href="269_en.html">7</a><a href="270_en.html">8</a><a href="271_en.html">9</a><a href="272_en.html">10</a><a href="273_en.html">11</a><a href="636_en.html">12</a><a href="638_en.html">13</a> · <a href="../kamakura.html#en/173">← Kamakura pilgrimage</a></nav><h1>Elfen Lied Mean Time</h1><p><a href="https://web.archive.org/web/20080110120248/http://elfen.s9.xrea.com/268.html">Wayback Machine</a> · <a href="268_original.html">Japanese original</a></p><article>I'm thinking of launching an ambitious project (?) called the Great Elfen Lied Encyclopedia (provisional title), although nothing concrete has been done yet. For its time notation, I considered a format called “Elfen Lied Mean Time,” defined as follows.
+Elfen Lied Mean Time (EMT): the number of milliseconds elapsed since 00:00:00 on June 6, 2002, Japan Standard Time (GMT+09:00), the release date of Young Jump 2002 No. 27 containing the first serialized chapter of Elfen Lied.
+In JavaScript, it would look like this:
+var emt;
+var now = new Date();
+var est = new Date(2002,6,6);
+// Since this is a difference, ignore the discrepancy with JST.
+emt = now.getTime() - est.getTime();
+The resulting value of emt is in milliseconds. (Not tested.)
+The idea is so silly that I've rejected it.
+February 28, 2003.</article></html>
