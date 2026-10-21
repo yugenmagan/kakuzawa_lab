@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><link href="archive.css" rel="stylesheet"/><title>Standard Time</title></head><body><header class="site-head"><div class="site-brand">Kakuzawa Laboratory</div><div class="site-sub">Elfen Lied historical fan archive</div></header><div class="site-shell"><nav class="site-nav"><a href="index_en.html">Studies</a><a href="../kamakura.html#en/173">Kamakura pilgrimage</a></nav><main><h1>Standard Time</h1><div class="lang-tabs"><a href="268_ru.html">Русский</a><a class="current" href="268_en.html">English</a><a href="268_original.html">日本語</a></div><p class="smallprint"><a href="https://web.archive.org/web/20080110120248/http://elfen.s9.xrea.com/268.html">Original on Wayback Machine</a></p><article>I'm thinking of launching an ambitious project (?) called the Great Elfen Lied Encyclopedia (provisional title), although nothing concrete has been done yet. For its time notation, I considered a format called “Elfen Lied Mean Time,” defined as follows.
+Elfen Lied Mean Time (EMT): the number of milliseconds elapsed since 00:00:00 on June 6, 2002, Japan Standard Time (GMT+09:00), the release date of Young Jump 2002 No. 27 containing the first serialized chapter of Elfen Lied.
+In JavaScript, it would look like this:
+var emt;
+var now = new Date();
+var est = new Date(2002,6,6);
+// Since this is a difference, ignore the discrepancy with JST.
+emt = now.getTime() - est.getTime();
+The resulting value of emt is in milliseconds. (Not tested.)
+The idea is so silly that I've rejected it.
+February 28, 2003.</article></main><footer class="site-footer">Kakuzawa Laboratory · Elfen Lied archive</footer></div></body></html>
