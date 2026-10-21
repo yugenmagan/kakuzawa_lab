@@ -1,4 +1,4 @@
-# kakuzawa_lab
+# Kakuzawa Laboratory
 
 A digital preservation project dedicated to restoring Kakuzawa Laboratory (角沢研究室(仮)), an early Japanese fan website devoted to Lynn Okamoto's Elfen Lied.
 
